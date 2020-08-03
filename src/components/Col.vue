@@ -29,6 +29,10 @@
       <StationList :items="content.items" :title="content.title" />
     </div>
 
+    <div v-else-if="content.type === 'skills'" :class="['column-'+content.cols, content.style, content.type]">
+      <Skills :items="content.items" :title="content.title" />
+    </div>
+
 </template>
 
 <script>
@@ -40,11 +44,12 @@ import DoubleText from './DoubleText.vue'
 import SingleText from './SingleText.vue'
 import ProgressList from './ProgressList.vue'
 import StationList from './StationList.vue'
+import Skills from './Skills.vue'
 
 export default {
   name: 'Col',
   components: {
-    Carousel, Grid, LargeText, Name, DoubleText, ProgressList, StationList, SingleText
+    Carousel, Grid, LargeText, Name, DoubleText, ProgressList, StationList, SingleText, Skills
   },
   props: {
     content: Object,

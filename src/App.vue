@@ -60,11 +60,6 @@ body{
     position:relative;
 }
 
-.cont [class*='column-'] img{
-  width:100%;
-  /* height:100%; */
-}
-
 .cont .text, .cont .name {
   text-align: left;
   position:relative;

@@ -43,6 +43,23 @@
       style: "dark"
     },
     {
+      type: "skills",
+      title: "Skills",
+      cols: 6,
+      style:"dark",
+      items:[
+        {name:"Usability Engineering", skills : [
+          {name:"Prototyping", value: 4, image: "proto.png"},
+          {name:"Usability<br />Testing", value: 3, image: "testing.png"},
+          {name:"Requirements <br />Engineering", value: 4, image: "re.png"},
+        ]},
+        {name:"Development", skills : [
+          {name:"Java Script", value: 5, image: "js.png"},
+          {name:"CSS", value: 4, image: "css.png"},
+          {name:"HTML", value: 4, image: "html.png"},
+        ]}]
+    },
+    {
       type: "image",
       title: "Image",
       cols: 3,

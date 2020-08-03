@@ -1,24 +1,23 @@
 <template>
     <div class='skill-item'>
-      <div class="skill-image"><img :src="item.image" :alt="item.name"></div>
-      <div class="skill-name">{{item.name}}</div>
+      <div class="skill-image"><img :src="skill.image" :alt="skill.name"></div>
+      <div class="skill-name" v-html="skill.name">{{skill.name}}</div>
     </div>
 </template>
 
 <script>
 export default {
-   name: 'skill',
+   name: 'Skill',
   props: {
-    item: Array
+    skill: Array
   }
 }
 </script>
 
 <style scoped>
 .skill-item {
-    float:left;
-    width:25%;
-    padding-left: 10%;
+    text-align:center;
+    padding:0 1.2rem;
 }
 .skill-name {
     margin-top: 1rem;
@@ -26,14 +25,15 @@ export default {
 
 .skill-image{
     margin-top: 1rem;
-    width:40%;
+}
+.skill-image img {
+    height:102px;
 }
 
 @media (max-width:768px){
-.skill-item {
-    float:left;
-    width:50%;
-    padding-left: 10%;
+    .skill-item {
+        width:50%;
+        padding-left: 10%;
+    }
 }
-}
-</style>
+</style>    
