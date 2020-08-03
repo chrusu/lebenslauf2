@@ -82,10 +82,10 @@
       cols: 6,
       style:"light",
       items:[
-        {name:"Swiss German", value: 100, image: "franz.png"},
-        {name:"German", value: 90, image: "franz.png"},
-        {name:"French", value: 70, image: "franz.png"},
-        {name:"English", value: 70, image: "franz.png"}]
+        {name:"Swiss German", value: 100, image: "swiss.png"},
+        {name:"German", value: 90, image: "german.png"},
+        {name:"French", value: 70, image: "french.png"},
+        {name:"English", value: 70, image: "english.png"}]
     },
     {
       type: "stations",
