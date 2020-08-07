@@ -29,7 +29,7 @@
       title: "Image",
       cols: 3,
       images: [{url:"photo.png", alt:"profilbild tobias hinderling"}],
-      height: "500",
+      height: "450",
       style:"light"
     },
     {
