@@ -42,6 +42,26 @@
       <p>Usability heisst: <b>"Finden statt Suchen"</b></p>`,
       style: "dark"
     },
+     
+    {
+      type: "single-text",
+      title: "Soft Skills",
+      cols: 3,
+      text: "Pragmatic<br/>Teamplayer<br/>Analytical<br/>Open Minded<br />Sarcastic",
+      style: "light"
+    },
+{
+      type: "image",
+      title: "Image",
+      cols: 3,
+      height:"300",
+      images: [
+        {url:"pragmatic_small.jpg", alt: "pragmatic"},
+        {url:"teamplayer_small.jpg", alt: "teamplayer"},
+        {url:"outsidethebox.png", alt: "open minded"},
+        {url:"sarcastic.svg", alt: "sarcastic"}],
+      style:"light"
+    },
     {
       type: "skills",
       title: "Skills",
@@ -60,6 +80,37 @@
         ]}]
     },
     {
+      type: "progress-list",
+      title: "Languages",
+      cols: 6,
+      style:"light",
+      items:[
+        {name:"Swiss German", value: 100, image: "swiss.png"},
+        {name:"German", value: 90, image: "german.png"},
+        {name:"French", value: 70, image: "french.png"},
+        {name:"English", value: 70, image: "english.png"}]
+    },
+    {
+      type: "large-text",
+      title: "Thats what they said...",
+      cols: 6,
+      testimonials: [
+        {
+          text:`"Tobias agiert innerhalb eines Teams auf konstruktive, zielorientierte und erfrischende Art und Weise. Lacht viel, auch über sich, und vermag eine positive Zusammenarbeit etablieren."`, 
+          author: "NewPlacement Academy"
+        },
+        {
+          text:`"Tobias besitzt die Fähigkeit, sich innert zukrzer Zeit in neue Technologien und Konzepte einzuarbeiten und findet dank seinem generellen Interesse an Technologien Ständig neue und kreative Wege zur Problemlösung."`, 
+          author: "SwissTXT AG"
+        },
+        {
+          text:`"Wir schätzten Tobias als ein begeisterungsfähiges und engagiertes teammitglied, das seine Aufgaben mit viel Leistungsbereitschaft anging."`, 
+          author: "Ronja und Specht, Unterlagerleiter BuLa 08"
+        }
+      ],
+      style: "dark"
+    },
+    {
       type: "image",
       title: "Image",
       cols: 3,
@@ -76,33 +127,6 @@
       cols: 3,
       text: "Kajak<br/>Climbing<br/>MTB<br/>Pfadi (aktuell: Leitung Wasseraktivitäten im Bundeslager 2021)",
       style: "light"
-    },
-    {
-      type: "large-text",
-      title: "Thats what they said...",
-      cols: 6,
-      testimonials: [
-        {
-          text:`"Tobias agiert innerhalb eines Teams auf konstruktive, zielorientierte und erfrischende Art und Weise. Lacht viel, auch über sich, und vermag eine positive Zusammenarbeit etablieren."`, 
-          author: "NewPlacement Academy"
-        },
-        {
-          text:`"Tobias agiert innerhalb eines Teams auf konstruktive, zielorientierte und erfrischende Art und Weise. Lacht viel, auch über sich, und vermag eine positive Zusammenarbeit etablieren."`, 
-          author: "NewPlacement Academy"
-        }
-      ],
-      style: "dark"
-    },
-    {
-      type: "progress-list",
-      title: "Languages",
-      cols: 6,
-      style:"light",
-      items:[
-        {name:"Swiss German", value: 100, image: "swiss.png"},
-        {name:"German", value: 90, image: "german.png"},
-        {name:"French", value: 70, image: "french.png"},
-        {name:"English", value: 70, image: "english.png"}]
     },
     {
       type: "stations",

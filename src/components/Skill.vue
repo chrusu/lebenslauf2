@@ -1,5 +1,5 @@
 <template>
-    <div class='skill-item'>
+    <div>
       <div class="skill-image"><img :src="skill.image" :alt="skill.name"></div>
       <div class="skill-name" v-html="skill.name">{{skill.name}}</div>
     </div>
@@ -15,10 +15,7 @@ export default {
 </script>
 
 <style scoped>
-.skill-item {
-    text-align:center;
-    padding:0 1.2rem;
-}
+
 .skill-name {
     margin-top: 1rem;
 }
@@ -30,10 +27,4 @@ export default {
     height:102px;
 }
 
-@media (max-width:768px){
-    .skill-item {
-        width:50%;
-        padding-left: 10%;
-    }
-}
 </style>    

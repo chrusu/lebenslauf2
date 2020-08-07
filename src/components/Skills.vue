@@ -2,10 +2,10 @@
 <div>
   <h2 >{{title}}</h2>
   <div  class="skills">
-    <div v-for="(item, i) in items" :key="i">
+    <div v-for="(item, i) in items" :key="i" style="width:100%;">
       <div class="skill-set-name">{{item.name}}</div>
       <div class="skill-set">
-        <div v-for="(skill, j) in item.skills" :key="j">
+        <div v-for="(skill, j) in item.skills" :key="j" class="skill-item">
           <Skill :skill="skill" />
         </div>
     </div>
@@ -34,6 +34,7 @@ export default {
   position: relative;
   display:flex;
   flex-wrap: wrap;
+  width:50%;
 }
 
 .skills {
@@ -42,7 +43,19 @@ export default {
   flex-wrap: wrap;
 }
 
-.skill-set-name {
 
+.skill-item {
+  width:33%;
+    text-align:center;
+}
+
+
+@media (max-width:768px){
+  .skill-set {
+    width:100%;
+  }
+    .skill-item {
+        padding-left: 10%;
+    }
 }
 </style>

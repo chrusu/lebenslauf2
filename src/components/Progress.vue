@@ -1,12 +1,12 @@
 <template>
-    <div class='progress-item'>
+    <div class="alignment">
         <v-progress-circular
         size="80"
         :value="item.value"
         color="light-blue"
       >{{ item.value }}</v-progress-circular>
-      <div class="progress-image"><img :src="item.image" :alt="item.name"></div>
-      <div class="progress-name">{{item.name}}</div>
+      <div class="progress-image"><div stlye="display:inline-block"><img :src="item.image" :alt="item.name"></div><div class="progress-name">{{item.name}}</div></div>
+      
     </div>
 </template>
 
@@ -20,25 +20,22 @@ export default {
 </script>
 
 <style scoped>
-.progress-item {
-    float:left;
-    width:25%;
-    padding-left: 10%;
-}
+
 .progress-name {
-    margin-top: 1rem;
+    display: inline-block;
 }
 
 .progress-image{
     margin-top: 1rem;
-    width:40%;
+    width:100%;
+    text-align:center;
 }
 
-@media (max-width:768px){
-.progress-item {
-    float:left;
-    width:50%;
-    padding-left: 10%;
+.progress-image img{
+    width:50px;
 }
+
+.alignment {
+    text-align: center;
 }
 </style>

@@ -36,6 +36,7 @@ export default {
     width:100%;
     min-height:200px;
     position:relative;
+    
 }
 .station-col {
     width:50%;
@@ -67,6 +68,10 @@ export default {
     margin-top: 1rem;
     width:80%;
 }
+
+  .station-image img {
+      width:100%;
+  }
 @media (max-width:768px){
   .station-col{
     width:100%;
@@ -76,6 +81,10 @@ export default {
   }
   .station-image {
       max-width:300px;
+      width:100%;
+  }
+
+  .station-image img {
       width:100%;
   }
   .station-date {

@@ -18,7 +18,11 @@
         :key="i"
       >
         <div class="bg-image" :style="['background-image:url(']+image.url+[');']" >
+          <div class="carousel-title">
+            <p>{{image.alt}}</p>
+          </div>
         </div>
+
       </v-carousel-item>
     </v-carousel>
 
@@ -55,4 +59,15 @@ div {
   min-height: 200px;
 }
 
+.carousel-title {
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+  height:100px;
+  background-color: rgba(20,20,20,0.7);
+  color: var(--color-neutral);
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top:0.5rem;
+}
 </style>
