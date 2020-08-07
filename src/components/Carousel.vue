@@ -54,7 +54,7 @@ div {
   height:100%;
   background-position:center;
   background-size: 120%;
-  min-width:400px;
+  /*min-width:400px;*/
   min-height: 200px;
 }
 
