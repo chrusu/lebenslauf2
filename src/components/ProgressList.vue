@@ -31,7 +31,8 @@ export default {
     width:25%;
     text-align:center;
     display: inline-block;
-    height:150px;
+    height:170px;
+    margin-top: 20px;
 }
 
 @media (max-width:768px){

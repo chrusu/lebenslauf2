@@ -55,7 +55,7 @@ export default {
 
 .skill-item {
   width:33%;
-    text-align:center;
+  text-align:center;
 }
 
 
@@ -67,7 +67,20 @@ export default {
   width:100%;
 }
     .skill-item {
-        padding-left: 10%;
+        padding-left: 0;
+    }
+}
+
+@media (max-width:400px){
+  .skill-set {
+    width:100%;
+  }
+  .skills-container {
+  width:100%;
+}
+    .skill-item {
+        padding-left: 0;
+        font-size: smaller;
     }
 }
 </style>
