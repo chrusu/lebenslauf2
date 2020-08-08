@@ -3,7 +3,6 @@
         <v-progress-circular
         size="80"
         :value="item.value"
-        color="light-blue"
       >{{ item.value }}</v-progress-circular>
       <div class="progress-image"><div stlye="display:inline-block"><img :src="item.image" :alt="item.name"></div><div class="progress-name">{{item.name}}</div></div>
       
