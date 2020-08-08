@@ -33,6 +33,10 @@
       <Skills :items="content.items" :title="content.title" />
     </div>
 
+    <div v-else-if="content.type === 'portfolio'" :class="['column-'+content.cols, content.style, content.type]">
+      <PortfolioList :items="content.items" :title="content.title" />
+    </div>
+
 </template>
 
 <script>
@@ -45,11 +49,12 @@ import SingleText from './SingleText.vue'
 import ProgressList from './ProgressList.vue'
 import StationList from './StationList.vue'
 import Skills from './Skills.vue'
+import PortfolioList from './PortfolioList.vue'
 
 export default {
   name: 'Col',
   components: {
-    Carousel, Grid, LargeText, Name, DoubleText, ProgressList, StationList, SingleText, Skills
+    Carousel, Grid, LargeText, Name, DoubleText, ProgressList, StationList, SingleText, Skills, PortfolioList
   },
   props: {
     content: Object,

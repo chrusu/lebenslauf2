@@ -9,7 +9,7 @@
 export default {
    name: 'Skill',
   props: {
-    skill: Array
+    skill: Object
   }
 }
 </script>

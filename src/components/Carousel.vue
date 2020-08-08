@@ -8,7 +8,6 @@
   
     <v-carousel
       :continuous="true"
-      :cycle="cycle"
       :show-arrows="false"
       hide-delimiter-background
       :height="height"

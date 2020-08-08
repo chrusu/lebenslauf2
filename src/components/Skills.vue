@@ -42,6 +42,7 @@ export default {
   position: relative;
   display: flex;
   flex-wrap: wrap;
+  color: var(--color-neutral);
 }
 
 .skills-container {

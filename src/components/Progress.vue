@@ -14,7 +14,7 @@
 export default {
    name: 'Progress',
   props: {
-    item: Array
+    item: Object
   }
 }
 </script>

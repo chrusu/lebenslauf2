@@ -22,7 +22,7 @@
 export default {
    name: 'Station',
   props: {
-    item: Array
+    item: Object
   }
 }
 </script>
