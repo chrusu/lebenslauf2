@@ -34,11 +34,12 @@
 .large-text {
   font-style: italic;
   font-weight: bold;
-  color: var(--color-neutral);
+  color: var(--color-dark);
   margin-bottom: 20px;
 }
 .author {
   margin-bottom: 40px;
   float:right;
+    color: var(--color-dark);
 }
 </style>

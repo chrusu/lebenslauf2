@@ -21,7 +21,7 @@
       firstname: "Tobias",
       lastname: "Hinderling",
       lead: "Junior Usability Engineer",
-      text: "Software Developer",
+      text: "Dipl. Ing. Informatik",
       style: "light"
 },
     {
@@ -92,7 +92,7 @@
     },
     {
       type: "stations",
-      title: "Stations",
+      title: "Werdegang",
       cols:6,
       style:"dark",
       items: [
@@ -141,6 +141,53 @@
         }
       ]
     },
+{
+      type: "large-text",
+      title: "Was andere über mich sagen...",
+      cols: 6,
+      testimonials: [
+        {
+          text:`"Tobias agiert innerhalb eines Teams auf konstruktive, zielorientierte und erfrischende Art und Weise. Lacht viel, auch über sich, und vermag eine positive Zusammenarbeit etablieren."`, 
+          author: "NewPlacement Academy"
+        },
+        {
+          text:`"Tobias besitzt die Fähigkeit, sich innert kurzer Zeit in neue Technologien und Konzepte einzuarbeiten und findet dank seinem generellen Interesse an Technologien ständig neue und kreative Wege zur Problemlösung."`, 
+          author: "SwissTXT AG"
+        },
+        {
+          text:`"Wir schätzten Tobias als ein begeisterungsfähiges und engagiertes Teammitglied, das seine Aufgaben mit viel Leistungsbereitschaft anging."`, 
+          author: "Ronja und Specht, Unterlagerleiter BuLa 08"
+        }
+      ],
+      style: "light"
+    },
+    {
+      type: "education",
+      title: "Ausbildungen",
+      cols:6,
+      style:"dark",
+      items: [
+        {
+          date: "Feb 2017 - Jun 2017",
+          name: "CAS Web Usability",
+          school: "FFHS",
+          city: "Regensdorf-Watt"
+        },
+        {
+          date: "Okt 2003 - Jan 2007",
+          name: "Dipl. Ing. Informatik",
+          school: "BFH TI",
+          city: "Biel / Bienne"
+        },
+        {
+          date: "Aug 1999 - Jul 2003",
+          name: "Lehre als Informatiker",
+          school: "Swisscom AG",
+          city: "Biel / Bienne"
+        }
+      ]
+    },
+
     {
       type: "image",
       title: "Image",
@@ -155,7 +202,7 @@
     
     {
       type: "single-text",
-      title: "Interests",
+      title: "Andere Interessen",
       cols: 3,
       text: "Kajak<br/>Climbing<br/>MTB<br/>Pfadi (aktuell: Leitung Wasseraktivitäten im Bundeslager 2021)",
       style: "light"
@@ -220,7 +267,7 @@
     },
     {
       type: "single-text",
-      title: "Contact",
+      title: "Kontakt",
       cols: 3,
       text: "Biel / Bienne <br />tobias.hinderling@bluewin.ch",
       style: "light"
@@ -235,26 +282,7 @@
       style:"light"
     },
 
-        {
-      type: "large-text",
-      title: "Thats what they said...",
-      cols: 6,
-      testimonials: [
-        {
-          text:`"Tobias agiert innerhalb eines Teams auf konstruktive, zielorientierte und erfrischende Art und Weise. Lacht viel, auch über sich, und vermag eine positive Zusammenarbeit etablieren."`, 
-          author: "NewPlacement Academy"
-        },
-        {
-          text:`"Tobias besitzt die Fähigkeit, sich innert kurzer Zeit in neue Technologien und Konzepte einzuarbeiten und findet dank seinem generellen Interesse an Technologien ständig neue und kreative Wege zur Problemlösung."`, 
-          author: "SwissTXT AG"
-        },
-        {
-          text:`"Wir schätzten Tobias als ein begeisterungsfähiges und engagiertes Teammitglied, das seine Aufgaben mit viel Leistungsbereitschaft anging."`, 
-          author: "Ronja und Specht, Unterlagerleiter BuLa 08"
-        }
-      ],
-      style: "dark"
-    },
+        
   ]
   }
     ),

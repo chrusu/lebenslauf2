@@ -92,6 +92,18 @@ export default {
   }
 }
 
+@media (max-width: 480px){
+    .station-city{
+        font-weight: bold;
+        width:100%;
+    }
+    .station-date{
+        width:100%;
+        text-align: left;
+        padding:0;
+    }
+}
+
 
 /* Clearfix */
 </style>

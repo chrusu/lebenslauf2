@@ -168,6 +168,9 @@ h3::first-letter{
     .cont .name h1 {
       font: Bold 7.5vw Mr Eaves San OT;
     }
+
+
+
 }
 
 @media (max-width:768px){
@@ -186,12 +189,42 @@ h3::first-letter{
     .cont .name h1 {
     font: Bold 14vw Mr Eaves San OT;
 }
+h1::first-letter{
+  font: Bold 18vw Mr Eaves San OT;
+}
 }
 
 @media (max-width:480px){
     .cont .column-1{
         width: 100%;
     }
+.cont .name h1 {
+  font: Bold 12vw Mr Eaves San OT;
+}
+
+h1::first-letter{
+  font: Bold 15vw Mr Eaves San OT;
+}
+
+    .cont h2 {
+  margin:0;
+  margin-bottom: 0.5em;
+  font-size:1.5rem;
+}
+
+.cont h3 {
+  margin:0;
+  font-size:1.3rem;
+}
+
+h2::first-letter{
+  font-size: 1.9rem;
+}
+
+h3::first-letter{
+  font-size: 1.6rem;
+}
+
 }
 
 .cont div .right {
