@@ -37,12 +37,11 @@
       title: "Portrait",
       cols: 6,
       text1: `<p><b>Was macht gute Usability aus?</b></p>
-      <p>Meine Passion ist es, umständliche Arbeitsabläufe zu vereinfachen und damit dem Kunden ein Lächeln zu entlocken. Der direkte und vor allem wiederholte Kontakt mit dem Kunden erachte ich als wegweisend für ein erfolgreiches Projekt.</p>`,
+      <p>Meine Passion ist es, umständliche Arbeitsabläufe zu vereinfachen und damit dem Kunden ein Lächeln zu entlocken.</p><p>Ich bin in der Lage, die Wünsche der Kunden mit ihren tatsächlichen Bedürfnissen abzugleichen und eine pragmatische und bezahlbare Lösung zu präsentieren..</p>`,
       text2: `<p>Meine Erfahrung als Software-Entwickler, Projektleiter und meine im August startende Ausbildung zum "Interation Desginer HF" helfen mir, die Bedürfnisse von Kunden, Projektleiter und Entwickler zu vereinen.</p>
-      <p>Usability heisst: <b>"Finden statt Suchen"</b></p>`,
+      <p>Usability bedeutet für mich: <b>"Finden statt Suchen"</b></p>`,
       style: "dark"
     },
-     
     {
       type: "single-text",
       title: "Soft Skills",
