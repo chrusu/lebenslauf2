@@ -8,7 +8,7 @@
 
 <script>
   export default {
-    name: "DoubleText",
+    name: "SingleText",
     props: {    
         title: String,
         text: String,
@@ -16,11 +16,3 @@
   }
 </script>
 
-<style scoped>
-.text1, .text2{
-  position:relative;
-  float:left;
-  width: 100%;
-  color: var(--color-neutral);
-}
-</style>

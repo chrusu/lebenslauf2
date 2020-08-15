@@ -2,6 +2,7 @@
 <div>
     <h2 >{{title}}</h2>
     <div v-for="(item, i) in items" :key="i">
+      <hr v-if="i!==0" />
         <Station :item="item" />
     </div>
 </div>
@@ -22,3 +23,8 @@ export default {
 }
 </script>
 
+<style scoped>
+hr {
+  border: 0.5px solid rgba(200,200,200,0.3)
+}
+</style>

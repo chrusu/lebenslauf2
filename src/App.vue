@@ -137,7 +137,6 @@ h3::first-letter{
     padding:0;
     margin:0;
     margin-bottom:1rem;
-    color: var(--color-neutral);
     font-weight: 400;
 }
 

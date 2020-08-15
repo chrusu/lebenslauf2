@@ -1,10 +1,10 @@
 <template>
 <div>
   <div v-if="images.length > 1">
-  <v-card
+  <!-- <v-card
     elevation="24"
     class="mx-auto"
-  >
+  > -->
   
     <v-carousel
       :continuous="true"
@@ -25,7 +25,7 @@
       </v-carousel-item>
     </v-carousel>
 
-  </v-card>
+  <!-- </v-card> -->
     </div>
     <div v-else>
     <div class="bg-image" :style="['height:']+height+['px;background-image:url(']+images[0].url+[');']" >

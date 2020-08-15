@@ -55,10 +55,11 @@
       cols: 3,
       height:320,
       images: [
-        {url:"pragmatic_small.jpg", alt: "pragmatic"},
+        {url:"pragmatic2_small.jpg", alt: "pragmatic"},
         {url:"teamplayer_small.jpg", alt: "teamplayer"},
         {url:"outsidethebox.png", alt: "open minded"},
-        {url:"sarcastic.svg", alt: "sarcastic"}],
+        {url:"analytical.jpg", alt: "analytical"},
+        {url:"sarcastic.png", alt: "sarcastic"}],
       style:"light"
     },
     {
@@ -203,7 +204,7 @@
       type: "single-text",
       title: "Andere Interessen",
       cols: 3,
-      text: "Kajak<br/>Climbing<br/>MTB<br/>Pfadi (aktuell: Leitung Wasseraktivitäten im Bundeslager 2021)",
+      text: `<p>In meiner Freizeit bin ich gerne in der Natur unterwegs. Dabei ist mir egal ob auf oder im Wasser, im Wald oder in den Bergen.</p>`,
       style: "light"
     },
     {
