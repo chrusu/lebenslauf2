@@ -51,6 +51,9 @@ export default {
 
 .skill-set-name {
   width:100%;
+  /*color: var(--color-light);*/
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 

@@ -46,20 +46,19 @@
       type: "single-text",
       title: "Soft Skills",
       cols: 3,
-      text: "Pragmatic<br/>Teamplayer<br/>Analytical<br/>Open Minded<br />Sarcastic",
+      text: "Pragmatic<br/>Teamplayer<br/>Analytical<br/>Open Minded",
       style: "light"
     },
 {
       type: "image",
       title: "Image",
       cols: 3,
-      height:320,
+      height:280,
       images: [
         {url:"pragmatic2_small.jpg", alt: "pragmatic"},
         {url:"teamplayer_small.jpg", alt: "teamplayer"},
         {url:"outsidethebox.png", alt: "open minded"},
-        {url:"analytical.jpg", alt: "analytical"},
-        {url:"sarcastic.png", alt: "sarcastic"}],
+        {url:"analytical.jpg", alt: "analytical"}],
       style:"light"
     },
     {

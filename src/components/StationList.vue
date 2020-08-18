@@ -25,6 +25,6 @@ export default {
 
 <style scoped>
 hr {
-  border: 0.5px solid rgba(200,200,200,0.3)
+  border: 0.5px solid rgba(209,96,20, 0.5)
 }
 </style>
