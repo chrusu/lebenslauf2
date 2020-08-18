@@ -73,14 +73,19 @@ body{
 
 .cont .name h1 {
   text-align: left;
-  font-family:  Mr Eaves San OT;
-  font-size: 4.5rem;
-  font-weight: 700;
+  font-family: Mr Eaves San OT;
+  font-size: 4rem;
+  font-weight: Bold;
   letter-spacing: 0px;
+  line-height: 5.2rem;
   color: #BEBEBE;
   text-transform: uppercase;
   opacity: 1;
   margin:0;
+}
+
+h1::first-letter{
+  font-size: 5.2rem;
 }
 
 .cont h2 {
@@ -97,9 +102,7 @@ body{
 h1, h2, h3 {
   text-transform: uppercase;
 }
-h1::first-letter{
-  font-size: 6rem;
-}
+
 h2::first-letter{
   font-size: 2.5rem;
 }
@@ -165,9 +168,12 @@ h3::first-letter{
         width: 33.33%;
     }
     .cont .name h1 {
-      font: Bold 7.5vw Mr Eaves San OT;
+      font-size: 7vw;
+      line-height: 8vw;
     }
-
+h1::first-letter{
+  font-size: 8vw;
+}
 
 
 }
@@ -186,10 +192,11 @@ h3::first-letter{
         width: 100%;
     }
     .cont .name h1 {
-    font: Bold 14vw Mr Eaves San OT;
+    font-size: 12vw;
+    line-height: 15vw;
 }
 h1::first-letter{
-  font: Bold 18vw Mr Eaves San OT;
+  font-size: 15vw;
 }
 }
 
@@ -197,32 +204,37 @@ h1::first-letter{
     .cont .column-1{
         width: 100%;
     }
-.cont .name h1 {
-  font: Bold 12vw Mr Eaves San OT;
-}
+    .cont .name h1 {
+      font-size: 12vw;
+      line-height: 15vw;
+    }
 
-h1::first-letter{
-  font: Bold 15vw Mr Eaves San OT;
-}
+    .cont .name {
+      min-height: 320px;
+    }
 
-    .cont h2 {
-  margin:0;
-  margin-bottom: 0.5em;
-  font-size:1.5rem;
-}
+    h1::first-letter{
+      font-size: 15vw;
+    }
 
-.cont h3 {
-  margin:0;
-  font-size:1.3rem;
-}
+        .cont h2 {
+      margin:0;
+      margin-bottom: 0.5em;
+      font-size:1.5rem;
+    }
 
-h2::first-letter{
-  font-size: 1.9rem;
-}
+    .cont h3 {
+      margin:0;
+      font-size:1.3rem;
+    }
 
-h3::first-letter{
-  font-size: 1.6rem;
-}
+    h2::first-letter{
+      font-size: 1.9rem;
+    }
+
+    h3::first-letter{
+      font-size: 1.6rem;
+    }
 
 }
 
