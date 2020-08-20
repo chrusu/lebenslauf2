@@ -27,8 +27,8 @@ body{
     padding:0;
     font-family: mr-eaves-modern, Lato, 'Helvetica Neue', Arial, sans-serif;
     font-size: 20px;
-    --color-dark: #1A1A1A;
-    --color-light: #D16014;
+    --color-dark: hsl(0, 0%, 10%);
+    --color-light: hsl(24, 73%, 45%);
     --color-neutral: #BEBEBE;
     --padding: 40px;
 
