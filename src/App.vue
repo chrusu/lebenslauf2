@@ -26,9 +26,12 @@ body{
     margin:0;
     padding:0;
     font-family: mr-eaves-modern, Lato, 'Helvetica Neue', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     --color-dark: hsl(0, 0%, 10%);
-    --color-light: hsl(24, 73%, 45%);
+    /*
+    --color-light: hsl(30, 83%, 55%);
+    --color-light: #F9CE21;*/
+    --color-light: #FF9046;
     --color-neutral: #BEBEBE;
     --padding: 40px;
 
@@ -78,7 +81,7 @@ body{
   font-weight: Bold;
   letter-spacing: 0px;
   line-height: 5.2rem;
-  color: #BEBEBE;
+  color: var(--color-dark);
   text-transform: uppercase;
   opacity: 1;
   margin:0;

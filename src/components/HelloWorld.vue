@@ -277,7 +277,7 @@
       cols: 3,
       height:250,
       images: [
-        {url:"map_small.jpg", alt: "map"}],
+        {url:"map_biel.png", alt: "map"}],
       style:"light"
     },
 

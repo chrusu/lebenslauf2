@@ -51,6 +51,7 @@
       <template v-slot:activator="{ on, attrs }">
         <v-btn
           dark
+          style="color:var(--color-dark);background-color:var(--color-light);"
           v-bind="attrs"
           v-on="on"
         >
@@ -76,7 +77,7 @@
         <v-card-actions>
           <v-spacer></v-spacer>
           <v-btn
-
+style="color:var(--color-dark);background-color:var(--color-light);"
             text
             :href="portfolio.url"
             target="_blank"
@@ -85,6 +86,7 @@
           </v-btn>
           <v-btn
             text
+            style="color:var(--color-dark);background-color:var(--color-light);"
             @click="dialog = false"
           >
             Cancel
