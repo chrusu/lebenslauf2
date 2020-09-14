@@ -25,9 +25,13 @@
   width: 50%;
   color: var(--color-neutral);
 }
+.text1{
+  padding-right: 1rem;
+}
 @media (max-width:768px){
   .text1, .text2{
     width:100%;
+    padding-right:0;
   }
 }
 </style>

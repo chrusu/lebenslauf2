@@ -36,6 +36,7 @@ export default {
   display:flex;
   flex-wrap: wrap;
   width:100%;
+  margin-top:10px;
 }
 
 .skills {
@@ -51,7 +52,7 @@ export default {
 
 .skill-set-name {
   width:100%;
-  /*color: var(--color-light);*/
+  color: var(--color-light);
   font-weight: bold;
   margin-bottom: 1rem;
 }

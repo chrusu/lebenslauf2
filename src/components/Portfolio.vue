@@ -51,7 +51,7 @@
       <template v-slot:activator="{ on, attrs }">
         <v-btn
           dark
-          style="color:var(--color-dark);background-color:var(--color-light);"
+          style="color:var(--color-dark);background-color:var(--color-light);font-weight:bold;"
           v-bind="attrs"
           v-on="on"
         >
@@ -70,14 +70,14 @@
         <v-card-text v-html="portfolio.html">
           {{portfolio.html}}
         </v-card-text>
-        <v-img :alt="portfolio.name" :src="portfolio.bigImage" />
+        <v-img :alt="portfolio.name" :src="portfolio.bigImage" :max-width="portfolio.imageWidth" style="margin: 0 auto;" />
         
         <v-divider></v-divider>
 
         <v-card-actions>
           <v-spacer></v-spacer>
           <v-btn
-style="color:var(--color-dark);background-color:var(--color-light);"
+style="color:var(--color-dark);background-color:var(--color-light);font-weight:bold;"
             text
             :href="portfolio.url"
             target="_blank"
@@ -86,7 +86,7 @@ style="color:var(--color-dark);background-color:var(--color-light);"
           </v-btn>
           <v-btn
             text
-            style="color:var(--color-dark);background-color:var(--color-light);"
+            style="color:var(--color-dark);background-color:var(--color-light);font-weight:bold;"
             @click="dialog = false"
           >
             Cancel
@@ -119,6 +119,7 @@ export default {
 
 .portfolio-image{
     margin-top: 1rem;
+    margin-bottom:1rem;
     height:100%;
 }
 .portfolio-image img {

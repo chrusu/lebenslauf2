@@ -26,7 +26,7 @@
 },
     {
       type: "image",
-      title: "Image",
+      title: "Profilbild",
       cols: 3,
       images: [{url:"profile_small.jpg", alt:"profilbild tobias hinderling"}],
       height: 450,
@@ -34,19 +34,19 @@
     },
     {
       type: "double-text",
-      title: "Portrait",
+      title: "Was mich antreibt",
       cols: 6,
       text1: `<p><b>Was macht gute Usability aus?</b></p>
-      <p>Meine Passion ist es, umständliche Arbeitsabläufe zu vereinfachen und damit dem Kunden ein Lächeln zu entlocken.</p><p>Ich bin in der Lage, die Wünsche der Kunden mit ihren tatsächlichen Bedürfnissen abzugleichen und eine pragmatische und bezahlbare Lösung zu präsentieren..</p>`,
-      text2: `<p>Meine Erfahrung als Software-Entwickler, Projektleiter und meine im August startende Ausbildung zum "Interation Desginer HF" helfen mir, die Bedürfnisse von Kunden, Projektleiter und Entwickler zu vereinen.</p>
-      <p>Usability bedeutet für mich: <b>"Finden statt Suchen"</b></p>`,
+      <p>Meine Passion ist es, umständliche Arbeitsabläufe zu vereinfachen und damit den Kund*innen ein Lächeln zu entlocken.</p><p>Die Wünsche der Kund*innen mit ihren tatsächlichen Bedürfnissen abzugleichen und eine pragmatische und bezahlbare Lösung zu präsentieren ist meine Stärke.</p>`,
+      text2: `<p>Durch meine Erfahrung als Software-Entwickler, Projektleiter und meine im August startende Ausbildung zum "Interation Desginer HF" gelingt es mir, die Bedürfnisse von Kund*innen, Projektleiter*innen und Entwickler*innen miteinander vereinen.</p>
+      <p>Usability bedeutet: <b>"Finden statt Suchen"</b></p>`,
       style: "dark"
     },
     {
       type: "single-text",
       title: "Soft Skills",
       cols: 3,
-      text: "Pragmatic<br/>Teamplayer<br/>Analytical<br/>Open Minded",
+      text: "Pragmatisch<br/>Teamplayer<br/>Analytisch<br/>Unvoreingenommen",
       style: "light"
     },
 {
@@ -57,8 +57,9 @@
       images: [
         {url:"pragmatic2_small.jpg", alt: "pragmatic"},
         {url:"teamplayer_small.jpg", alt: "teamplayer"},
-        {url:"outsidethebox.png", alt: "open minded"},
-        {url:"analytical.jpg", alt: "analytical"}],
+        {url:"analytical.jpg", alt: "analytical"},
+        {url:"outsidethebox.png", alt: "open minded"}
+      ],
       style:"light"
     },
     {
@@ -67,7 +68,7 @@
       cols: 6,
       style:"dark",
       items:[
-        {name:"Usability Engineering", skills : [
+        {name:"User Experience", skills : [
           {name:"Prototyping", value: 4, image: "proto.png"},
           {name:"Usability<br />Testing", value: 3, image: "testing.png"},
           {name:"Requirements <br />Engineering", value: 4, image: "re.png"},
@@ -80,21 +81,42 @@
     },
     {
       type: "progress-list",
-      title: "Languages",
+      title: "Sprachen",
       cols: 6,
       style:"light",
       items:[
-        {name:"Swiss German", value: 100, image: "swiss.png"},
-        {name:"German", value: 90, image: "german.png"},
-        {name:"French", value: 70, image: "french.png"},
+        {name:"Schwizer Dütsch", value: 100, image: "swiss.png"},
+        {name:"Deutsch", value: 90, image: "german.png"},
+        {name:"Francais", value: 70, image: "french.png"},
         {name:"English", value: 70, image: "english.png"}]
     },
     {
       type: "stations",
-      title: "Werdegang",
+      title: "Meine bisherigen Stationen",
       cols:6,
       style:"dark",
       items: [
+        {
+          date: "Juni 2020 - ???",
+          name: "Brasserie La Marmotte",
+          image: "logo_lamarmotte1.png",
+          city: "Biel/Bienne",
+          workitems: [
+            "Professioneller Biertester 🍺😋",
+            "Lieferung von Bier und Cider an Coop und div. Restaurants"
+          ]
+        },
+        {
+          date: "Dez 2019 - April 2020",
+          name: "Bayard Sport & Fashion",
+          image: "bayard.png",
+          city: "Zermatt",
+          workitems: [
+            "Vermietung von Skis",
+            "Verkauf und Beratung von Skis, Helme, Skischuhe, etc.",
+            "Mädchen für alles"
+          ]
+        },
         {
           date: "Nov 2012 - Nov 2017",
           name: "SwissTXT AG",
@@ -166,6 +188,12 @@
       cols:6,
       style:"dark",
       items: [
+          {
+          date: "August 2020 - Juli 2023",
+          name: "Interaction Design HF",
+          school: "Schule für Gestaltung",
+          city: "Bern"
+        },
         {
           date: "Feb 2017 - Jun 2017",
           name: "CAS Web Usability",
@@ -194,7 +222,7 @@
       height:320,
       images: [
         {url:"kajak.png", alt: "Kajak"},
-        {url:"klettern.png", alt: "Climbing"},
+        {url:"klettern.png", alt: "Klettern"},
         {url:"biken.png", alt: "MTB"}],
       style:"light"
     }, 
@@ -230,7 +258,8 @@
             <br><br>Als erstes habe ich geschaut, was die Konkurrenz so macht, z.B. Netflix, Youtube, etc.
             <br><br>Darauf aufbauend habe ich dann einen ersten Prototypen entwickelt, 
             welchen ich dann immer wieder in Hallway-Tests mit verschiedensten Mitarbeitern getestet habe und mit Hilfe vom gewonnenen Feedback weiter verfeinert habe.</p>`,
-            bigImage: "portfolio/telesuisse.png"
+            bigImage: "portfolio/telesuisse.png",
+            imageWidth: "700"
           },
           {
             name:"Ferien. Zuhause.", 
@@ -248,7 +277,9 @@
             <br>Alles kann, nichts muss.
             <br><br>Die Idee hat mich fasziniert und nachdem ich ein paar Skizzen gezeichnet habe, 
             habe ich mich entschieden einen kleinen Prototypen in Adobe XD zu gestalten.<br></div></div>`,
-            bigImage: "portfolio/ferien_zuhause.png"},
+            bigImage: "portfolio/ferien_zuhause.png",
+            imageWidth: 400
+          },
           {
             name:"mobility emotion", 
             image: "mobility_emotion.png", 
@@ -261,7 +292,9 @@
             <br><br>Folgende Punkte sind am häufigsten genannt worden:
             <ul><li>mehr Fokus auf elektrische Antriebe</li><li>Verbesserung bei der Auswahl des Autos</li><li>Wie kann verhindert werden, dass eine einzelne Person im Auto sitzt?</li></ul>
             <br><br>Entsprechend habe ich mir zu diesen Punkten ein paar Gedanken gemacht und habe diese in einen kleinen Prototypen einfliessen lassen.</p>`,
-            bigImage: "portfolio/mobility_emotion.png"}
+            bigImage: "portfolio/mobility_emotion.png",
+            imageWidth: 400
+          }
         ]
     },
     {

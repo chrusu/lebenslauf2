@@ -66,7 +66,7 @@ export default {
 
 .station-image{
     margin-top: 1rem;
-    width:80%;
+    width:70%;
 }
 
   .station-image img {
