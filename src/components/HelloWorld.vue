@@ -38,7 +38,7 @@
       cols: 6,
       text1: `<p><b>Was macht gute Usability aus?</b></p>
       <p>Meine Passion ist es, umständliche Arbeitsabläufe zu vereinfachen und damit den Kund*innen ein Lächeln zu entlocken.</p><p>Die Wünsche der Kund*innen mit ihren tatsächlichen Bedürfnissen abzugleichen und eine pragmatische und bezahlbare Lösung zu präsentieren ist meine Stärke.</p>`,
-      text2: `<p>Durch meine Erfahrung als Software-Entwickler, Projektleiter und meine im August startende Ausbildung zum "Interation Desginer HF" gelingt es mir, die Bedürfnisse von Kund*innen, Projektleiter*innen und Entwickler*innen miteinander vereinen.</p>
+      text2: `<p>Durch meine Erfahrung als Software-Entwickler, Projektleiter und meiner laufenden Ausbildung zum "Interation Desginer HF" gelingt es mir, die Bedürfnisse von Kund*innen, Projektleiter*innen und Entwickler*innen miteinander vereinen.</p>
       <p>Usability bedeutet: <b>"Finden statt Suchen"</b></p>`,
       style: "dark"
     },
